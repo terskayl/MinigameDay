@@ -8462,3 +8462,574 @@ Script Stack (0 frames) :
 [2025.11.04-22.12.37:150][ 98]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
 [2025.11.04-22.12.37:150][ 98]LogShaderCompilers: Display: Material Cache Hits: 13 (10%)
 [2025.11.04-22.12.37:150][ 98]LogShaderCompilers: Display: ================================================
+[2025.11.04-22.14.05:745][372]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.04-22.14.05:772][372]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.11.04-22.14.05:772][372]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.11.04-22.14.05:781][372]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 9.467 ms (total: 344.770 ms)
+[2025.11.04-22.14.05:782][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.04-22.14.05:792][372]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.04-22.14.05:821][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028216s)
+[2025.11.04-22.14.05:821][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.028393s)
+[2025.11.04-22.14.05:860][372]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2025.11.04-22.14.05:866][372]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.11.04-22.14.05:868][372]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.04-22.14.05:868][372]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.04-22.14.05:868][372]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.04-22.14.05:868][372]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.04-22.14.05:872][372]LogWorldPartition: Display: WorldPartition initialize took 3.468 ms (total: 180.207 ms)
+[2025.11.04-22.14.05:872][372]LogPlayLevel: PIE: World Init took: (0.006271s)
+[2025.11.04-22.14.05:873][372]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2025.11.04-22.14.05:873][372]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.04-22.14.05:873][372]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.04-22.14.05:873][372]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.04-22.14.05:873][372]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.04-22.14.05:873][372]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.04-22.14.05:873][372]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.04-22.14.05:873][372]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.04-22.14.05:873][372]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.04-22.14.05:873][372]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.04-22.14.05:873][372]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.04-22.14.05:873][372]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.04-22.14.05:877][372]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.04-22.14.06:131][372]LogAudioMixer: Display: Using Audio Hardware Device Speaker (2- Realtek(R) Audio)
+[2025.11.04-22.14.06:132][372]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.04-22.14.06:132][372]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.04-22.14.06:132][372]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.04-22.14.06:134][372]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=69
+[2025.11.04-22.14.06:135][372]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=69
+[2025.11.04-22.14.06:137][372]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=69
+[2025.11.04-22.14.06:137][372]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=69
+[2025.11.04-22.14.06:137][372]LogInit: FAudioDevice initialized with ID 69.
+[2025.11.04-22.14.06:137][372]LogAudio: Display: Audio Device (ID: 69) registered with world 'ThirdPersonMap'.
+[2025.11.04-22.14.06:138][372]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 69
+[2025.11.04-22.14.06:144][372]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.04-22.14.06:152][372]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.11.04-17.14.06
+[2025.11.04-22.14.06:153][372]LogWorld: Bringing up level for play took: 0.007974
+[2025.11.04-22.14.06:158][372]LogOnline: OSS: Created online subsystem instance for: :Context_85
+[2025.11.04-22.14.06:182][372]LogScript: Warning: Script Msg: The widget 'W_Score_C_0' was already added to the screen.
+[2025.11.04-22.14.06:182][372]LogScript: Warning: Script Msg called by: W_Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_67.W_Score_C_0
+[2025.11.04-22.14.06:183][372]PIE: Server logged in
+[2025.11.04-22.14.06:184][372]PIE: Play in editor total start time 0.413 seconds.
+[2025.11.04-22.14.07:232][383]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2004178528] knocked
+[2025.11.04-22.14.07:426][385]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_1995322527] knocked
+[2025.11.04-22.14.09:132][402]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063064545] knocked
+[2025.11.04-22.14.09:231][403]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063059543] knocked
+[2025.11.04-22.14.09:330][404]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063051540] knocked
+[2025.11.04-22.14.09:330][404]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063062544] knocked
+[2025.11.04-22.14.09:428][405]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063051540] knocked
+[2025.11.04-22.14.09:739][408]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063054541] knocked
+[2025.11.04-22.14.09:739][408]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063043537] knocked
+[2025.11.04-22.14.09:839][409]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063054541] knocked
+[2025.11.04-22.14.09:948][410]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063056542] knocked
+[2025.11.04-22.14.09:949][410]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063064545] knocked
+[2025.11.04-22.14.09:949][410]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063049539] knocked
+[2025.11.04-22.14.09:949][410]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063046538] knocked
+[2025.11.04-22.14.10:048][411]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063064545] knocked
+[2025.11.04-22.14.10:048][411]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063049539] knocked
+[2025.11.04-22.14.10:159][412]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063049539] knocked
+[2025.11.04-22.14.10:259][413]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063049539] knocked
+[2025.11.04-22.14.10:839][419]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2098883587] knocked
+[2025.11.04-22.14.11:229][424]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2098877586] knocked
+[2025.11.04-22.14.11:303][425]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2098877586] knocked
+[2025.11.04-22.14.11:373][426]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2098877586] knocked
+[2025.11.04-22.14.13:053][445]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2088977578] knocked
+[2025.11.04-22.14.13:157][446]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2088965576] knocked
+[2025.11.04-22.14.13:753][452]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073846565] knocked
+[2025.11.04-22.14.13:860][453]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073844564] knocked
+[2025.11.04-22.14.13:958][454]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073841563] knocked
+[2025.11.04-22.14.14:048][455]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073836561] knocked
+[2025.11.04-22.14.14:048][455]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073838562] knocked
+[2025.11.04-22.14.14:332][458]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073823558] knocked
+[2025.11.04-22.14.14:435][459]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073816557] knocked
+[2025.11.04-22.14.14:435][459]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073823558] knocked
+[2025.11.04-22.14.14:534][460]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073833560] knocked
+[2025.11.04-22.14.14:639][461]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073833560] knocked
+[2025.11.04-22.14.14:639][461]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073809556] knocked
+[2025.11.04-22.14.17:151][488]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2080332575] knocked
+[2025.11.04-22.14.17:253][489]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2080330574] knocked
+[2025.11.04-22.14.17:436][491]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2080325572] knocked
+[2025.11.04-22.14.17:657][494]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2080323571] knocked
+[2025.11.04-22.14.17:740][495]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2080313568] knocked
+[2025.11.04-22.14.17:740][495]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2080332575] knocked
+[2025.11.04-22.14.17:812][496]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2080313568] knocked
+[2025.11.04-22.14.17:885][497]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2080313568] knocked
+[2025.11.04-22.14.18:027][499]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2080313568] knocked
+[2025.11.04-22.14.18:103][500]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2080308567] knocked
+[2025.11.04-22.14.22:810][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.04-22.14.22:810][552]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.04-22.14.22:810][552]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.11.04-22.14.22:814][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.04-22.14.22:815][552]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.11.04-22.14.22:975][552]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.04-22.14.22:982][552]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.04-22.14.23:011][552]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.04-22.14.23:012][552]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 69
+[2025.11.04-22.14.23:013][552]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2025.11.04-22.14.23:016][552]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69
+[2025.11.04-22.14.23:026][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.04-22.14.23:032][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2025.11.04-22.14.23:124][553]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2025.11.04-22.14.28:044][605]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.04-22.14.28:073][605]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.11.04-22.14.28:073][605]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.11.04-22.14.28:080][605]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 7.155 ms (total: 351.926 ms)
+[2025.11.04-22.14.28:081][605]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.04-22.14.28:081][605]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.04-22.14.28:102][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021061s)
+[2025.11.04-22.14.28:102][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.021175s)
+[2025.11.04-22.14.28:122][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.11.04-22.14.28:125][605]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.11.04-22.14.28:127][605]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.04-22.14.28:127][605]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.04-22.14.28:127][605]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.04-22.14.28:127][605]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.04-22.14.28:130][605]LogWorldPartition: Display: WorldPartition initialize took 3.612 ms (total: 183.819 ms)
+[2025.11.04-22.14.28:130][605]LogPlayLevel: PIE: World Init took: (0.006190s)
+[2025.11.04-22.14.28:132][605]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2025.11.04-22.14.28:132][605]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.04-22.14.28:132][605]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.04-22.14.28:132][605]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.04-22.14.28:132][605]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.04-22.14.28:132][605]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.04-22.14.28:132][605]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.04-22.14.28:132][605]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.04-22.14.28:132][605]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.04-22.14.28:132][605]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.04-22.14.28:132][605]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.04-22.14.28:132][605]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.04-22.14.28:137][605]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.04-22.14.28:359][605]LogAudioMixer: Display: Using Audio Hardware Device Speaker (2- Realtek(R) Audio)
+[2025.11.04-22.14.28:360][605]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.04-22.14.28:360][605]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.04-22.14.28:360][605]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.04-22.14.28:361][605]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=70
+[2025.11.04-22.14.28:361][605]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=70
+[2025.11.04-22.14.28:368][605]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=70
+[2025.11.04-22.14.28:368][605]LogInit: FAudioDevice initialized with ID 70.
+[2025.11.04-22.14.28:368][605]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=70
+[2025.11.04-22.14.28:368][605]LogAudio: Display: Audio Device (ID: 70) registered with world 'ThirdPersonMap'.
+[2025.11.04-22.14.28:368][605]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 70
+[2025.11.04-22.14.28:375][605]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.04-22.14.28:382][605]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.11.04-17.14.28
+[2025.11.04-22.14.28:383][605]LogWorld: Bringing up level for play took: 0.006700
+[2025.11.04-22.14.28:389][605]LogOnline: OSS: Created online subsystem instance for: :Context_86
+[2025.11.04-22.14.28:415][605]LogScript: Warning: Script Msg: The widget 'W_Score_C_0' was already added to the screen.
+[2025.11.04-22.14.28:415][605]LogScript: Warning: Script Msg called by: W_Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_68.W_Score_C_0
+[2025.11.04-22.14.28:416][605]PIE: Server logged in
+[2025.11.04-22.14.28:419][605]PIE: Play in editor total start time 0.346 seconds.
+[2025.11.04-22.14.31:137][633]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063064545] knocked
+[2025.11.04-22.14.31:313][635]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063062544] knocked
+[2025.11.04-22.14.31:500][637]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063059543] knocked
+[2025.11.04-22.14.31:500][637]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063056542] knocked
+[2025.11.04-22.14.31:595][638]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063054541] knocked
+[2025.11.04-22.14.31:783][640]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063049539] knocked
+[2025.11.04-22.14.31:884][641]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063046538] knocked
+[2025.11.04-22.14.31:979][642]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063046538] knocked
+[2025.11.04-22.14.32:082][643]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063046538] knocked
+[2025.11.04-22.14.32:186][644]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063046538] knocked
+[2025.11.04-22.14.32:287][645]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063046538] knocked
+[2025.11.04-22.14.33:090][654]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2098871585] knocked
+[2025.11.04-22.14.33:090][654]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2098883587] knocked
+[2025.11.04-22.14.34:657][671]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2088977578] knocked
+[2025.11.04-22.14.34:810][673]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2088973577] knocked
+[2025.11.04-22.14.34:811][673]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2088965576] knocked
+[2025.11.04-22.14.35:014][676]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2088977578] knocked
+[2025.11.04-22.14.35:085][677]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2088977578] knocked
+[2025.11.04-22.14.35:372][680]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2088977578] knocked
+[2025.11.04-22.14.35:399][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.04-22.14.35:399][680]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.04-22.14.35:400][680]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.11.04-22.14.35:404][680]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.04-22.14.35:404][680]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.11.04-22.14.35:566][680]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.04-22.14.35:577][680]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.04-22.14.35:601][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.04-22.14.35:604][680]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 70
+[2025.11.04-22.14.35:604][680]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2025.11.04-22.14.35:608][680]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70
+[2025.11.04-22.14.35:745][680]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2025.11.04-22.14.35:839][681]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2025.11.04-22.14.50:308][832]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2870.503662
+[2025.11.04-22.14.51:309][835]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.04-22.14.51:309][835]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2871.170898, Update Interval: 332.875763
+[2025.11.04-22.21.19:325][133]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3259.525635
+[2025.11.04-22.21.20:326][136]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.04-22.21.20:326][136]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3260.192383, Update Interval: 358.480164
+[2025.11.05-01.21.20:961][653]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.11.05-01.21.21:610][653]LogHttp: Warning: 000009BE8DBDA100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-01.21.21:610][653]LogHttp: Warning: 000009BE8DBDA100: libcurl info message cache 0 (Too old connection (10640 seconds idle), disconnect it)
+[2025.11.05-01.21.21:610][653]LogHttp: Warning: 000009BE8DBDA100: libcurl info message cache 1 (Connection 0 seems to be dead)
+[2025.11.05-01.21.21:610][653]LogHttp: Warning: 000009BE8DBDA100: libcurl info message cache 2 (Closing connection)
+[2025.11.05-01.21.21:610][653]LogHttp: Warning: 000009BE8DBDA100: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.11.05-01.21.21:610][653]LogHttp: Warning: 000009BE8DBDA100: libcurl info message cache 4 (Send failure: Connection was reset)
+[2025.11.05-01.21.21:610][653]LogHttp: Warning: 000009BE8DBDA100: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.11.05-01.21.21:610][653]LogHttp: Warning: 000009BE8DBDA100: libcurl info message cache 6 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.11.05-01.21.21:610][653]LogHttp: Warning: 000009BE8DBDA100: libcurl info message cache 7 (Closing connection)
+[2025.11.05-01.21.21:718][654]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B0B17935B-408B-E807-37DF-6D84B0417306%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-01.21.21:721][654]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-01.21.21:721][654]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: libcurl info message cache 0 (Too old connection (10640 seconds idle), disconnect it)
+[2025.11.05-01.21.21:721][654]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: libcurl info message cache 1 (Connection 14 seems to be dead)
+[2025.11.05-01.21.21:721][654]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: libcurl info message cache 2 (Closing connection)
+[2025.11.05-01.21.21:721][654]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.11.05-01.21.21:721][654]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: libcurl info message cache 4 (Send failure: Connection was reset)
+[2025.11.05-01.21.21:721][654]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.11.05-01.21.21:721][654]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-01.21.21:721][654]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: libcurl info message cache 7 (Closing connection)
+[2025.11.05-01.21.21:733][655]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B0B17935B-408B-E807-37DF-6D84B0417306%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.11.05-01.21.22:332][656]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-01.21.22:332][656]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-01.21.22:332][656]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: libcurl info message cache 0 (Found bundle for host: 0x9be44880690 [serially])
+[2025.11.05-01.21.22:332][656]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-01.21.22:332][656]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: libcurl info message cache 2 (Closing connection)
+[2025.11.05-01.21.22:332][656]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-01.21.22:332][656]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-01.21.22:332][656]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-01.21.22:332][656]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: libcurl info message cache 1 (Closing connection)
+[2025.11.05-01.21.22:332][656]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-01.21.22:333][656]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB
+[2025.11.05-01.21.22:856][657]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:58529'.
+[2025.11.05-01.21.22:869][657]Could not fetch the local adapter addresses
+[2025.11.05-01.21.22:869][657]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.11.05-01.21.22:995][658]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.11.05-01.21.23:666][661]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-01.21.23:666][661]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB
+[2025.11.05-01.21.23:998][661]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-01.21.23:998][661]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-01.21.23:998][661]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-01.21.23:998][661]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: libcurl info message cache 3 (Closing connection)
+[2025.11.05-01.21.23:998][661]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-01.21.23:998][662]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-01.21.23:998][662]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: libcurl info message cache 3 (Found bundle for host: 0x9be44880f90 [serially])
+[2025.11.05-01.21.23:998][662]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-01.21.23:998][662]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: libcurl info message cache 5 (Closing connection)
+[2025.11.05-01.21.23:998][662]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-01.21.23:998][662]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB
+[2025.11.05-01.21.24:791][663]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:52578'.
+[2025.11.05-01.21.24:808][663]Could not fetch the local adapter addresses
+[2025.11.05-01.21.24:808][663]LogUdpMessaging: Warning: Failed to join multicast group '230.0.0.1:6666' on detected local interface '0.0.0.0'
+[2025.11.05-01.21.24:996][664]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.11.05-01.21.25:000][664]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-01.21.25:000][664]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB
+[2025.11.05-01.21.25:365][666]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-01.21.25:365][666]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-01.21.25:365][666]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-01.21.25:365][666]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: libcurl info message cache 5 (Closing connection)
+[2025.11.05-01.21.25:365][666]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-01.21.25:365][666]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-01.21.25:365][666]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: libcurl info message cache 6 (Found bundle for host: 0x9be44880ba0 [serially])
+[2025.11.05-01.21.25:365][666]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: libcurl info message cache 7 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-01.21.25:365][666]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: libcurl info message cache 8 (Closing connection)
+[2025.11.05-01.21.25:365][666]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-01.21.25:365][666]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB
+[2025.11.05-01.21.25:365][666]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.11.05-01.21.26:368][669]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-01.21.26:684][669]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-01.21.26:684][669]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-01.21.26:684][669]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-01.21.26:684][669]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: libcurl info message cache 7 (Closing connection)
+[2025.11.05-01.21.26:684][669]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-04.20.29:119][669]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:57712'.
+[2025.11.05-04.20.29:128][669]Could not fetch the local adapter addresses
+[2025.11.05-04.20.29:128][669]LogUdpMessaging: Display: Added local interface '0.0.0.0' to multicast group '230.0.0.1:6666'
+[2025.11.05-04.20.30:044][671]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24810.230469
+[2025.11.05-04.20.30:044][671]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-04.20.30:378][672]LogHttp: Warning: 000009BE8DBD0E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-04.20.30:378][672]LogHttp: Warning: 000009BE8DBD0E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.11.05-04.20.30:378][672]LogHttp: Warning: 000009BE8DBD0E00: libcurl info message cache 1 (Closing connection)
+[2025.11.05-04.20.30:378][672]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B0B17935B-408B-E807-37DF-6D84B0417306%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-04.20.30:378][672]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-04.20.30:378][672]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-04.20.30:378][672]LogEOSSDK: Warning: LogHttp: 000009BE9C54C000: libcurl info message cache 1 (Closing connection)
+[2025.11.05-04.20.30:378][672]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-04.20.30:378][672]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-04.20.30:378][672]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: libcurl info message cache 8 (Found bundle for host: 0x9be44880bd0 [serially])
+[2025.11.05-04.20.30:378][672]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: libcurl info message cache 9 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-04.20.30:378][672]LogEOSSDK: Warning: LogHttp: 000009BE9C544E00: libcurl info message cache 10 (Closing connection)
+[2025.11.05-04.20.30:378][672]LogEOSSDK: Warning: LogHttp: 000009BE9C547E00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-04.20.30:378][673]LogEOSSDK: Warning: LogHttp: 000009BE9C547E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-04.20.30:378][673]LogEOSSDK: Warning: LogHttp: 000009BE9C547E00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-04.20.30:378][673]LogEOSSDK: Warning: LogHttp: 000009BE9C547E00: libcurl info message cache 1 (Closing connection)
+[2025.11.05-04.20.30:378][673]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B0B17935B-408B-E807-37DF-6D84B0417306%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.11.05-04.20.30:378][673]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-04.20.30:378][673]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[EOSAuth], OperationName=[TokenGrant], Url=[<Redacted>]
+[2025.11.05-04.20.30:378][673]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB
+[2025.11.05-04.20.31:068][674]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2025.11.05-04.20.31:069][674]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 45.529648 seconds
+[2025.11.05-04.20.31:396][675]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-04.20.31:396][676]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-04.20.31:396][676]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-04.20.31:396][676]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: libcurl info message cache 1 (Closing connection)
+[2025.11.05-04.20.31:396][676]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB
+[2025.11.05-04.20.31:396][676]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-04.20.31:733][677]LogEOSSDK: Warning: LogHttp: 000009BE9C547E00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-04.20.31:734][677]LogEOSSDK: Warning: LogHttp: 000009BE9C547E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-04.20.31:734][677]LogEOSSDK: Warning: LogHttp: 000009BE9C547E00: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-04.20.31:734][677]LogEOSSDK: Warning: LogHttp: 000009BE9C547E00: libcurl info message cache 3 (Closing connection)
+[2025.11.05-04.20.31:734][677]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB
+[2025.11.05-04.20.32:054][677]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [10747 Seconds] waiting for h/w. InstanceID=1
+[2025.11.05-04.20.32:076][677]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.11.05-04.20.32:076][677]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=40160
+[2025.11.05-04.20.32:416][678]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-04.20.32:748][679]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.11.05-04.20.32:752][679]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{0deeaf20-6011-4245-ac47-c3e568c048ef}, Name=Speaker (2- Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=426.49
+[2025.11.05-04.20.32:752][679]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.11.05-04.20.32:755][679]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.11.05-04.20.32:757][679]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-04.20.32:757][679]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-04.20.32:757][679]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-04.20.32:757][680]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: libcurl info message cache 3 (Closing connection)
+[2025.11.05-04.20.32:757][680]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB
+[2025.11.05-04.20.32:757][680]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-04.20.33:083][680]LogEOSSDK: Warning: LogHttp: 000009BE9C547E00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-04.20.33:083][681]LogEOSSDK: Warning: LogHttp: 000009BE9C547E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-04.20.33:083][681]LogEOSSDK: Warning: LogHttp: 000009BE9C547E00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-04.20.33:083][681]LogEOSSDK: Warning: LogHttp: 000009BE9C547E00: libcurl info message cache 5 (Closing connection)
+[2025.11.05-04.20.33:084][681]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB
+[2025.11.05-04.20.33:084][681]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.11.05-04.20.34:084][683]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-04.20.34:417][684]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-04.20.34:417][685]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-04.20.34:417][685]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-04.20.34:417][685]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: libcurl info message cache 5 (Closing connection)
+[2025.11.05-04.20.34:417][685]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-04.20.35:749][688]LogEOSSDK: Warning: LogHttp: Retry 3 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-04.20.36:082][689]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-04.20.36:082][689]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-04.20.36:082][689]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: libcurl info message cache 6 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-04.20.36:082][689]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: libcurl info message cache 7 (Closing connection)
+[2025.11.05-04.20.36:082][689]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-04.20.37:416][694]LogEOSSDK: Warning: LogHttp: Retry 4 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-04.20.37:749][694]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-04.20.41:174][702]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.11.05-05.55.38:754][702]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 30526.470703
+[2025.11.05-05.55.39:349][703]LogEOSSDK: Warning: LogHttp: 000009BE9C546600: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B0B17935B-408B-E807-37DF-6D84B0417306%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-05.55.39:349][703]LogEOSSDK: Warning: LogHttp: 000009BE9C546600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-05.55.39:349][703]LogEOSSDK: Warning: LogHttp: 000009BE9C546600: libcurl info message cache 0 (Too old connection (5708 seconds idle), disconnect it)
+[2025.11.05-05.55.39:349][703]LogEOSSDK: Warning: LogHttp: 000009BE9C546600: libcurl info message cache 1 (Connection 32 seems to be dead)
+[2025.11.05-05.55.39:349][703]LogEOSSDK: Warning: LogHttp: 000009BE9C546600: libcurl info message cache 2 (Closing connection)
+[2025.11.05-05.55.39:349][703]LogEOSSDK: Warning: LogHttp: 000009BE9C546600: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.11.05-05.55.39:349][703]LogEOSSDK: Warning: LogHttp: 000009BE9C546600: libcurl info message cache 4 (Send failure: Connection was reset)
+[2025.11.05-05.55.39:349][703]LogEOSSDK: Warning: LogHttp: 000009BE9C546600: libcurl info message cache 5 (Recv failure: Connection was reset)
+[2025.11.05-05.55.39:349][703]LogEOSSDK: Warning: LogHttp: 000009BE9C546600: libcurl info message cache 6 (Hostname in DNS cache was stale, zapped)
+[2025.11.05-05.55.39:349][703]LogEOSSDK: Warning: LogHttp: 000009BE9C546600: libcurl info message cache 7 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-05.55.39:349][703]LogEOSSDK: Warning: LogHttp: 000009BE9C546600: libcurl info message cache 8 (Closing connection)
+[2025.11.05-05.55.39:452][703]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:52533'.
+[2025.11.05-05.55.39:491][703]LogUdpMessaging: Display: Added local interface '100.69.35.47' to multicast group '230.0.0.1:6666'
+[2025.11.05-05.55.39:509][704]LogHttp: Warning: 000009BE8DBDB600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-05.55.39:509][704]LogHttp: Warning: 000009BE8DBDB600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.11.05-05.55.39:509][704]LogHttp: Warning: 000009BE8DBDB600: libcurl info message cache 1 (Closing connection)
+[2025.11.05-05.55.39:509][704]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: invalid HTTP response code received. URL: https://api.epicgames.dev/auth/v1/oauth/token, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-05.55.39:509][704]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-05.55.39:509][704]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-05.55.39:509][704]LogEOSSDK: Warning: LogHttp: 000009BE9C54CC00: libcurl info message cache 1 (Closing connection)
+[2025.11.05-05.55.39:509][704]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.11.05-05.55.39:509][704]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.11.05-05.55.39:509][704]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: libcurl info message cache 0 (Found bundle for host: 0x9be44880840 [serially])
+[2025.11.05-05.55.39:509][704]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2025.11.05-05.55.39:509][704]LogEOSSDK: Warning: LogHttp: 000009BE9C546000: libcurl info message cache 2 (Closing connection)
+[2025.11.05-05.55.39:509][704]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B0B17935B-408B-E807-37DF-6D84B0417306%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.4-36651368%20-%20%2B%2BEOSSDK%2BRelease-1.16.4-CL-36651368&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.11.05-05.55.39:510][704]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-05.55.39:510][704]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB
+[2025.11.05-05.55.40:552][707]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-05.55.40:552][707]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB
+[2025.11.05-05.55.40:877][708]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/auth/v1/oauth/token
+[2025.11.05-05.55.40:877][708]LogEOSSDK: Warning: LogHttp: Success on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.16.4-36651368&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=9F553C9A484B701DBF742FA3C16788FB
+[2025.11.05-05.55.42:210][712]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.05-05.55.42:210][712]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 30529.730469, Update Interval: 339.953003
+[2025.11.05-05.59.32:381][356]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.05-05.59.32:411][356]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.11.05-05.59.32:411][356]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.11.05-05.59.32:421][356]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 10.059 ms (total: 361.986 ms)
+[2025.11.05-05.59.32:421][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.05-05.59.32:425][356]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.05-05.59.32:458][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033341s)
+[2025.11.05-05.59.32:458][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.033500s)
+[2025.11.05-05.59.32:512][356]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2025.11.05-05.59.32:517][356]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.11.05-05.59.32:521][356]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.05-05.59.32:521][356]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.05-05.59.32:521][356]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.05-05.59.32:521][356]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.05-05.59.32:528][356]LogWorldPartition: Display: WorldPartition initialize took 6.782 ms (total: 190.602 ms)
+[2025.11.05-05.59.32:528][356]LogPlayLevel: PIE: World Init took: (0.010786s)
+[2025.11.05-05.59.32:530][356]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2025.11.05-05.59.32:530][356]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.05-05.59.32:530][356]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.05-05.59.32:530][356]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.05-05.59.32:530][356]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.05-05.59.32:530][356]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.05-05.59.32:530][356]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.05-05.59.32:530][356]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.05-05.59.32:530][356]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.05-05.59.32:531][356]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.05-05.59.32:531][356]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.05-05.59.32:531][356]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.05-05.59.32:534][356]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.05-05.59.32:639][356]LogAudioMixer: Display: Using Audio Hardware Device Speaker (2- Realtek(R) Audio)
+[2025.11.05-05.59.32:645][356]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.05-05.59.32:645][356]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.05-05.59.32:645][356]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.05-05.59.32:649][356]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=71
+[2025.11.05-05.59.32:649][356]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=71
+[2025.11.05-05.59.32:655][356]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=71
+[2025.11.05-05.59.32:655][356]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=71
+[2025.11.05-05.59.32:655][356]LogInit: FAudioDevice initialized with ID 71.
+[2025.11.05-05.59.32:655][356]LogAudio: Display: Audio Device (ID: 71) registered with world 'ThirdPersonMap'.
+[2025.11.05-05.59.32:655][356]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 71
+[2025.11.05-05.59.32:663][356]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.11.05-05.59.32:678][356]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.11.05-00.59.32
+[2025.11.05-05.59.32:679][356]LogWorld: Bringing up level for play took: 0.015226
+[2025.11.05-05.59.32:689][356]LogOnline: OSS: Created online subsystem instance for: :Context_87
+[2025.11.05-05.59.32:718][356]LogScript: Warning: Script Msg: The widget 'W_Score_C_0' was already added to the screen.
+[2025.11.05-05.59.32:718][356]LogScript: Warning: Script Msg called by: W_Score_C /Engine/Transient.UnrealEdEngine_0:GameInstance_69.W_Score_C_0
+[2025.11.05-05.59.32:720][356]PIE: Server logged in
+[2025.11.05-05.59.32:721][356]PIE: Play in editor total start time 0.312 seconds.
+[2025.11.05-05.59.35:480][390]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063064545] knocked
+[2025.11.05-05.59.35:549][391]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063059543] knocked
+[2025.11.05-05.59.35:636][392]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063062544] knocked
+[2025.11.05-05.59.35:711][393]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063051540] knocked
+[2025.11.05-05.59.35:784][394]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063054541] knocked
+[2025.11.05-05.59.35:784][394]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063051540] knocked
+[2025.11.05-05.59.35:857][395]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063054541] knocked
+[2025.11.05-05.59.35:857][395]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063043537] knocked
+[2025.11.05-05.59.36:204][400]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063049539] knocked
+[2025.11.05-05.59.36:346][402]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063046538] knocked
+[2025.11.05-05.59.36:417][403]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063046538] knocked
+[2025.11.05-05.59.36:488][404]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063046538] knocked
+[2025.11.05-05.59.36:560][405]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2063046538] knocked
+[2025.11.05-05.59.36:926][410]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2098871585] knocked
+[2025.11.05-05.59.37:135][413]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2098877586] knocked
+[2025.11.05-05.59.38:463][430]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2088977578] knocked
+[2025.11.05-05.59.39:973][448]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2097232583] knocked
+[2025.11.05-05.59.39:973][448]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2097237584] knocked
+[2025.11.05-05.59.40:457][454]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073846565] knocked
+[2025.11.05-05.59.40:612][456]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073841563] knocked
+[2025.11.05-05.59.40:792][458]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073844564] knocked
+[2025.11.05-05.59.40:792][458]LogBlueprintUserMessages: [BP_BowlingPin_C_UAID_246A0E1A0815FB9E02_2073841563] knocked
+[2025.11.05-05.59.43:533][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.05-05.59.43:533][494]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.11.05-05.59.43:534][494]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.43:538][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.43:538][494]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.11.05-05.59.43:666][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.05-05.59.43:672][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.43:721][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.05-05.59.43:722][494]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 71
+[2025.11.05-05.59.43:722][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71
+[2025.11.05-05.59.43:725][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71
+[2025.11.05-05.59.43:740][494]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2025.11.05-05.59.43:805][495]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2025.11.05-05.59.46:085][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.11.05-05.59.46:251][515]LogStall: Shutdown...
+[2025.11.05-05.59.46:252][515]LogStall: Shutdown complete.
+[2025.11.05-05.59.46:571][515]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.46:571][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.47:336][515]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.11.05-05.59.47:336][515]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.47:336][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.48:358][515]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.48:358][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.48:373][515]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.48:373][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.48:568][515]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.11.05-05.59.48:569][515]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.48:569][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.48:867][515]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.11.05-05.59.48:868][515]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.48:868][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.49:344][515]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.49:345][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.49:360][515]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.49:360][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.49:679][515]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.49:679][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.49:695][515]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.49:695][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.50:076][515]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.50:076][515]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.50:182][515]LogSlate: Window 'MinigameDay - Unreal Editor' being destroyed
+[2025.11.05-05.59.50:866][515]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2025.11.05-05.59.50:916][515]Cmd: QUIT_EDITOR
+[2025.11.05-05.59.50:916][515]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.11.05-05.59.50:947][516]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.11.05-05.59.50:952][516]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.11.05-05.59.50:952][516]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.11.05-05.59.50:967][516]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.50:968][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.50:969][516]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.11.05-05.59.51:022][516]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.11.05-05.59.51:033][516]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.11.05-05.59.51:446][516]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.51:447][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.51:454][516]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.51:455][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.51:461][516]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.51:461][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.51:465][516]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.51:466][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.51:473][516]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.51:473][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.51:478][516]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.11.05-05.59.51:478][516]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.05-05.59.51:503][516]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.11.05-05.59.51:536][516]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.11.05-05.59.51:536][516]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.11.05-05.59.51:537][516]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.11.05-05.59.51:810][516]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.11.05-05.59.51:810][516]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.11.05-05.59.51:810][516]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2025.11.05-05.59.51:810][516]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.11.05-05.59.51:811][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.11.05-05.59.51:816][516]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.11.05-05.59.52:132][516]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.11.05-05.59.52:135][516]LogAudio: Display: Audio Device Manager Shutdown
+[2025.11.05-05.59.52:143][516]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.11.05-05.59.52:175][516]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.11.05-05.59.52:177][516]LogExit: Preparing to exit.
+[2025.11.05-05.59.52:354][516]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2025.11.05-05.59.52:366][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:369][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:383][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:386][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:387][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:387][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:387][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:387][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:387][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:387][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:387][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:387][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:387][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:387][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:387][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:387][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:388][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:388][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:390][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:390][516]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.52:390][516]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.11.05-05.59.53:425][516]LogEditorDataStorage: Deinitializing
+[2025.11.05-05.59.54:581][516]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.11.05-05.59.55:087][516]LogExit: Editor shut down
+[2025.11.05-05.59.55:151][516]LogExit: Transaction tracking system shut down
+[2025.11.05-05.59.57:376][516]LogCore: Error: PropertyBag: Expecting RefCount to be zero on destructor, but it is 15.
+[2025.11.05-05.59.57:518][516]LogExit: Object subsystem successfully closed.
+[2025.11.05-05.59.57:568][516]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.11.05-05.59.59:015][516]LogMemoryProfiler: Shutdown
+[2025.11.05-05.59.59:016][516]LogNetworkingProfiler: Shutdown
+[2025.11.05-05.59.59:016][516]LoadingProfiler: Shutdown
+[2025.11.05-05.59.59:016][516]LogTimingProfiler: Shutdown
+[2025.11.05-06.00.01:025][516]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.11.05-06.00.01:076][516]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.11.05-06.00.01:076][516]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB01CC152-488E-9E2E-C378-209E34BDF77E%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.1-38445549%2B%2B%2BUE5%2BRelease-5.5&UserID=19e1257f4a692dca83768abc48dd074d%7C09c82501008140f8a33af94686f3c75d%7Cf139d758-d010-4cd7-a06b-a83b6ee9c719&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.11.05-06.00.01:680][516]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.11.05-06.00.01:680][516]RenderDocPlugin: plugin has been unloaded.
+[2025.11.05-06.00.01:682][516]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.11.05-06.00.01:683][516]LogNFORDenoise: NFORDenoise function shutting down
+[2025.11.05-06.00.01:717][516]LogXGEController: Cleaning working directory: C:/Users/njbhv/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.11.05-06.00.01:754][516]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.11.05-06.00.01:754][516]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.11.05-06.00.01:756][516]LogPakFile: Destroying PakPlatformFile
+[2025.11.05-06.00.04:763][516]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.11.05-06.00.05:604][516]LogExit: Exiting.
+[2025.11.05-06.00.05:790][516]Log file closed, 11/05/25 01:00:05
